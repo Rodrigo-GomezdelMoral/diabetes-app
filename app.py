@@ -10,6 +10,8 @@ else:
     st.error("Model file not found. Please upload the decision tree model.")
     st.stop()
 
+st.set_page_config(page_title="Diabetes app", layout="centered")
+
 st.title("🩺 Diabetes App")
 st.write("This application aims to enhance the diagnosis of Type 2 Diabetes, reduce healthcare costs, and improve the patient's quality of life.")
 
@@ -90,4 +92,4 @@ st.markdown(
     **Disclaimer**: This tool is an artificial intelligence-based application for supporting healthcare professionals. It is not a substitute for medical advice, and the healthcare provider's judgment should always prevail.
     """
 )
-st.markdown("First version v1.0")
+st.markdown("First version v1.1")
